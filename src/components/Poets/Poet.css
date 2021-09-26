@@ -2,6 +2,7 @@
     text-align: center;
     max-width: 150px;
     max-height: 200px;
+    border-radius: 50%;
 }
 /* .grid{
     display: grid;
@@ -16,4 +17,14 @@
 }
 .grid:hover{
     box-shadow: 4px 3px lightgreen;
+}
+.simple-btn{
+    background-color:orange;
+    width: 110px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+}
+.customize{
+    margin-left: 35px;
 }

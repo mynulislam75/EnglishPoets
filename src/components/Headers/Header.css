@@ -1,4 +1,32 @@
-.header-section{
+
+.website-name{
+   text-align: center;
+}
+
+.header-section nav{
     text-align: center;
-    border: 1px solid gray;
+    background-color: dimgrey;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-section nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 700px;
+    color: white;
+}
+.header-section nav a:hover{
+    background-color: lightgrey;
+}
+.input-feild input{
+   width: 300px;
+   height: 20px;
+   border-radius: 2px;
+}
+.input-feild button{
+    background-color: orange;
+    width: 70px;
+    height: 23px;
 }

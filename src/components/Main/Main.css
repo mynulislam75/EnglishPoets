@@ -3,7 +3,13 @@
     grid-template-columns: 3fr 1fr;
 }
 .all-poets-details{
-    border: 1px solid lightblue;
+    /* border: 1px solid lightblue; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.cart-div{
+    margin-top: 10px;
+    align-items: center;
 }
