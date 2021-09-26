@@ -18,7 +18,7 @@ const Poet = (props) => {
                 <p><small> Nationality:{nationality}</small></p>
                 <h4>Notable Books:{notablebook}</h4>
                 <h4>Price Of The Books:${price}</h4>
-                <p>Diamonds required for virtual poets commetee:{gem}</p>
+                <p>Diamonds required for virtual poets committee:{gem}</p>
 
                 <button
                     className="simple-btn"

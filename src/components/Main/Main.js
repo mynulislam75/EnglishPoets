@@ -28,6 +28,7 @@ const Main = () => {
                 {
                     poetsInfo.map(poet => <Poet
                         poet={poet}
+                        key={poet.key}
                         handleAdd={handleAdd}
                     ></Poet>)
                 }

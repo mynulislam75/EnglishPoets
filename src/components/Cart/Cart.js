@@ -12,7 +12,7 @@ const Cart = (props) => {
     return (
         <div className="cart-poets">
             <h1 className="cart-heading">Cart History</h1>
-            <h3>Make Your Favourite Poets Commette</h3>
+            <h3>Make Your Favourite Poets Committee</h3>
             <h2><i class="fas fa-shopping-cart"></i>Cart:{props.cart.length}</h2>
 
             {
