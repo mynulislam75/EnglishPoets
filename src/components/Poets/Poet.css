@@ -1,0 +1,19 @@
+.img-cls{
+    text-align: center;
+    max-width: 150px;
+    max-height: 200px;
+}
+/* .grid{
+    display: grid;
+    grid-template-columns: repeat(3fr 1fr);
+} */
+.grid{
+    text-align: center;
+    border: 1px solid gray;
+    background-color: lemonchiffon;
+    margin: 10px;
+    border-radius: 5px;
+}
+.grid:hover{
+    box-shadow: 4px 3px lightgreen;
+}
