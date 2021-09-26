@@ -2,7 +2,7 @@ import React from 'react';
 import './Poet.css'
 
 const Poet = (props) => {
-    // console.log(props)
+    // destructuring data
     const { name, born, died, img, notablebook, price, nationality, gem } = props.poet;
     return (
         <div className="poets-container">

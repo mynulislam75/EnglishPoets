@@ -8,6 +8,7 @@ const Main = () => {
     const [poetsInfo, setPOestsInfo] = useState([]);
     const[cart,setCart]=useState([])
 
+// fetching fake data from file
     useEffect(() => {
         fetch('./fakedata.JSON')
             .then(res => res.json())
@@ -20,8 +21,6 @@ const Main = () => {
         setCart(newCart)
     }
 
-
-    // console.log(poetsInfo)
     return (
         <div className="main-section">
             <div className="all-poets-details">
