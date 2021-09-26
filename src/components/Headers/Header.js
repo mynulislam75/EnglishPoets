@@ -6,9 +6,10 @@ const Header = () => {
         <div className="header-section">
 
             <div className="website-name">
-                <h2>POETS CORNER</h2>
+                <h2><span id="header-text01">POETS</span><span id="middle-symbol">//</span><span id="header-text02">CORNER</span></h2>
                 <p>Read Books,Share Books</p>
             </div>
+
             <nav>
                 <div>
                     <a href="/POEM">POEM</a>
@@ -21,6 +22,11 @@ const Header = () => {
                 <div className="input-feild">
                     <input placeholder="Search Your Favourite Aurthor" type="text" /> <button>Search</button>
                 </div>
+
+                <div className="budget-feild">
+                <h2>Total Budget:$1900</h2>
+                </div>
+               
             </nav>
         </div>
     );

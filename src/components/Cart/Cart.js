@@ -5,19 +5,15 @@ const Cart = (props) => {
     const { cart } = props;
     console.log(cart)
     let total = 0;
-    let name = '';
-    let notablebook = '';
     for (const singlePoet of cart) {
-        name = singlePoet.name;
-        total = total + parseInt(singlePoet.price);
-        notablebook = singlePoet.notablebook;
+        total = total + parseInt(singlePoet.gem);
     }
 
     return (
-        <div className="cart-poet">
+        <div className="cart-poets">
             <h1 className="cart-heading">Cart History</h1>
-            <h3>Buy Book,Read Book and Stay Happy!</h3>
-            <h4>Cart:{props.cart.length}</h4>
+            <h3>Make Your Favourite Poets Commette</h3>
+            <h2><i class="fas fa-shopping-cart"></i>Cart:{props.cart.length}</h2>
 
             {
                 cart.map(singlePoetD => <li>
@@ -31,7 +27,8 @@ const Cart = (props) => {
 
                 )
             }
-            <p>Total Price:{total}</p>
+            <h4><i class="far fa-gem"></i>Total Diamonds:{total}</h4>
+            <button className="apply-btn">Apply</button>
         </div>
     );
 };

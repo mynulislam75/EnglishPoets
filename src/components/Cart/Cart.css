@@ -3,8 +3,7 @@
     color: rgb(68, 109, 109);
 }
 
-.cart-poet{
-    background-color: palegreen;
+.cart-poets{
     margin: 10px;
     padding: 10px;
     height: 100%;
@@ -17,9 +16,17 @@
 }
 .cart-img{
     height: 30px;
-    width: 20px;
+    width: 40px;
     border-radius: 50%;
 }
-.cart-div p{
-    margin-left: 2px;
+.cart-div h5{
+    margin-left: 5px;
 } 
+.apply-btn{
+    background-color: rgb(23, 88, 23);
+    height: 30px;
+    width: 90px;
+    color:white;
+    border-radius: 5px;
+    border: none;
+}

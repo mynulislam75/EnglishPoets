@@ -2,13 +2,32 @@
 .website-name{
    text-align: center;
 }
+.website-name h2{
+    /* color: 	#00ff7f; */
+    font-size: 30px;
+    font-weight: 800px;
+}
+#header-text01{
+    color: #008000;
+}
+#header-text02{
+    color: red;
+}
+#middle-symbol{
+    color: #800080;
+}
+.website-name p{
+    font-size: smaller;
+}
 
 .header-section nav{
+    align-items: center;
     text-align: center;
-    background-color: dimgrey;
-    line-height: 60px;
+    background-color:#6495ed;
+    line-height: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+   
 }
 .header-section nav a{
     text-decoration: none;
@@ -18,15 +37,22 @@
     color: white;
 }
 .header-section nav a:hover{
-    background-color: lightgrey;
+    background-color: rgb(202, 255, 123);
 }
 .input-feild input{
    width: 300px;
-   height: 20px;
+   height: 25px;
    border-radius: 2px;
+   border: none;
 }
 .input-feild button{
-    background-color: orange;
+    background-color: 	#3cb371;
     width: 70px;
-    height: 23px;
+    height: 28px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+}
+.budget-feild{
+    color: white;
 }
